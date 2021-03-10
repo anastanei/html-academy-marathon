@@ -72,7 +72,7 @@
           дома!»
         </p>
         <h3 class="about-section__pros visually-hidden">Наши преимущества</h3>
-        <ul class="about-section__pros-list">
+        <ul class="about-section__pros-list dark-theme">
           <li class="about-section__pros-item">
             <div class="about-section_item-value">5</div>
             <div class="about-section_item-description">лет опыта</div>
@@ -90,17 +90,19 @@
       <section class="portfolio-section" id="portfolio">
         <h2 class="section-title portfolio-section__title">Наши работы</h2>
         <article class="portfolio-section__work-sample work-sample">
-          <h3 class="work-sample__title">Квартира-студия 30 кв.м.</h3>
-          <p class="work-sample__description">
-            В квартире были светлые стены и тёплые цвета. Мы сконцентрировались
-            на отсылках к природе и сделали ребятам уютный интерьер, отсылающий
-            к виллам островов Бали.
-          </p>
-          <img
-            class="work-sample__image"
-            src="img/studio-bedroom.jpg"
-            alt="Спальня в скандинавском стиле"
-          />
+          <div class="work-sample_wrapper dark-theme">
+            <h3 class="work-sample__title">Квартира-студия 30 кв.м.</h3>
+            <p class="work-sample__description ">
+              В квартире были светлые стены и тёплые цвета. Мы сконцентрировались
+              на отсылках к природе и сделали ребятам уютный интерьер, отсылающий
+              к виллам островов Бали.
+            </p>
+            <img
+              class="work-sample__image"
+              src="img/studio-bedroom.jpg"
+              alt="Спальня в скандинавском стиле"
+            />
+          </div>
           <img
             class="work-sample__image"
             src="img/studio-kitchen.jpg"
@@ -170,8 +172,8 @@
         <article class="reviews-section__reviews-section-item review-item">
           <blockquote class="review-item__quote">
             <p class="review-item__paragraph">
-              Восторг! Спасибо за комфортную жизнь. Очень рада, что выбрала
-              вашу студию для украшения своего дома.
+              Восторг! Спасибо за комфортную жизнь. Очень рада, что выбрала вашу
+              студию для украшения своего дома.
             </p>
             <p class="review-item__paragraph">
               Работа шла быстро, было очень приятно общаться и взаимодействовать
@@ -200,22 +202,18 @@
           Вперёд
         </button>
       </section>
-      <section class="cta-section" id="cta">
+      <section class="cta-section dark-theme" id="cta">
         <h2 class="section-title cta-section__title">Оставить заявку</h2>
-        <form
-          class="cta-section__cta-form cta-form"
-          action="#"
-          method="post"
-        >
+        <form class="cta-section__cta-form cta-form" action="#" method="post">
           <input
-            class="cta-form__name-field"
+            class="cta-form__name-field input-text"
             id="name-field"
             name="name"
             type="text"
             value="Ваше имя"
           />
           <input
-            class="cta-form__phone-field"
+            class="cta-form__phone-field input-text"
             id="phone-field"
             name="phone"
             type="text"

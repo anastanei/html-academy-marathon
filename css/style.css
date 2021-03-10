@@ -1,7 +1,99 @@
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat"), local("Montserrat-Regular"),
+    url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../fonts/Montserrat-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Montserrat"), local("Montserrat-Medium"),
+    url("../fonts/Montserrat-Medium.woff2") format("woff2"),
+    url("../fonts/Montserrat-Medium.woff") format("woff");
+}
+
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
+}
+
+body {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+  background-color: #e5e5e5;
+}
+
+.dark-theme {
+  background: #8d7370;
+  color: #ffffff;
+}
+
+.main-nav {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.intro-section__text--header {
+  font-size: 50px;
+  line-height: 62px;
+}
+
+.button {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #533738;
+}
+
+.section-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.about-section_item-value {
+  font-size: 50px;
+  line-height: 62px;
+}
+
+.about-section_item-description {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.work-sample__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.portfolio-section__load-more {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+.input-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #f6ede9;
+  background-color: transparent;
 }

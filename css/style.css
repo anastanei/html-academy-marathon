@@ -65,12 +65,12 @@ body {
   text-transform: uppercase;
 }
 
-.about-section_item-value {
+.about-section__item-value {
   font-size: 50px;
   line-height: 62px;
 }
 
-.about-section_item-description {
+.about-section__item-description {
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;

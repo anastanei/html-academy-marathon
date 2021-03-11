@@ -88,12 +88,29 @@ body {
   line-height: 37px;
 }
 
-.input-text {
+.input-text, .input-tel {
+  display: block;
+  width: 508px;
+  height: 35px;
+
+  background-color: transparent;
+  border: none;
+  border-bottom: solid #ffffff 1px;
+
+
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   color: #f6ede9;
-  background-color: transparent;
+}
+
+.input-text::placeholder, .input-tel::placeholder {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #f6ede9;
 }

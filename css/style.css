@@ -107,6 +107,10 @@ body {
   line-height: 37px;
 }
 
+.team-section {
+  background-color: #E2C4BA;
+}
+
 .input-text, .input-tel {
   display: block;
   width: 508px;

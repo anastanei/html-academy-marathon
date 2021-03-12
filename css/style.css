@@ -80,13 +80,28 @@ body {
   line-height: 37px;
 }
 
-.work-sample__title {
+
+.portfolio-section__load-more {
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
 }
 
-.portfolio-section__load-more {
+.work-sample {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work-sample__wrapper {
+  position: absolute;
+  width: 488px;
+  height: 451px;
+  margin: 0;
+  background-color: rgba(100, 72, 69, 0.8);
+  color: #ffffff;
+}
+
+.work-sample__title {
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;

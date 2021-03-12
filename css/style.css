@@ -32,6 +32,10 @@ body {
   line-height: 30px;
   color: #533738;
   background-color: #e5e5e5;
+  background-image: url("/img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 1400px 715px;
 }
 
 .dark-theme {

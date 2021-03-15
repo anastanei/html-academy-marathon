@@ -79,6 +79,11 @@ body {
   list-style: none;
 }
 
+.main-nav__link {
+  text-decoration: none;
+  color: #533738;
+}
+
 .phone {
   text-decoration: none;
   color: #533738;

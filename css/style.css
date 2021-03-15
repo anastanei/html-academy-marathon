@@ -139,8 +139,10 @@ body {
   width: 488px;
   height: 451px;
   margin: 0;
-  background-color: rgba(100, 72, 69, 0.8);
+
   color: #ffffff;
+
+  background-color: rgba(100, 72, 69, 0.8);
 }
 
 .work-sample__title {

@@ -49,7 +49,7 @@
       </nav>
     </header>
     <main>
-      <section class="intro-section" id="intro">
+      <section class="container intro-section" id="intro">
         <h1 class="visually-hidden intro-section__title">
           Дизайн интерьеров SCANDI
         </h1>
@@ -203,39 +203,9 @@
           </li>
         </ol>
       </section>
-      <section class="reviews-section" id="reviews">
-        <h2 class="section-title reviews-section__title">Отзывы</h2>
-        <article class="reviews-section__reviews-section-item review-item">
-          <h3 class="review-item__title visually-hidden">Отзыв Анны Беловской</h3>
-          <blockquote class="review-item__quote">
-            <p class="review-item__paragraph">
-              Восторг! Спасибо за комфортную жизнь. Очень рада, что выбрала вашу
-              студию для украшения своего дома.
-            </p>
-            <p class="review-item__paragraph">
-              Работа шла быстро, было очень приятно общаться и взаимодействовать
-              с сотрудниками. Не ожидала, что это будет так легко!
-            </p>
-            <p class="review-item__paragraph">
-              Буду советовать и своим друзьям к вам обращаться
-            </p>
-            <cite class="review-item__author">АННА БЕЛОВСКАЯ</cite>
-          </blockquote>
-          <img
-            class="review-item__photo"
-            src="img/review-belovskaya-living-room.jpg"
-            alt="Гостинная"
-            width="407"
-            height="272"
-          />
-          <img
-            class="review-item__photo"
-            src="img/review-belovskaya-kitchen.jpg"
-            alt="Кухня"
-            width="407"
-            height="272"
-          />
-        </article>
+      <section class="review-section container-min" id="review">
+        <h2 class="section-title review-section__title">Отзывы</h2>
+        <div class="review-section__wrapper">
           <button
             class="arrow-button review-section__button"
             type="button"
@@ -243,6 +213,40 @@
           >
             <img src="svg/arrow-button.svg" alt="Светлая стрелка" />
           </button>
+          <article class="review-section__review-section-item review-item">
+            <h3 class="review-item__title visually-hidden">
+              Отзыв Анны Беловской
+            </h3>
+            <blockquote class="review-item__quote">
+              <p class="review-item__paragraph">
+                Восторг! Спасибо за комфортную жизнь. Очень рада, что выбрала
+                вашу студию для украшения своего дома.
+              </p>
+              <p class="review-item__paragraph">
+                Работа шла быстро, было очень приятно общаться и
+                взаимодействовать с сотрудниками. Не ожидала, что это будет так
+                легко!
+              </p>
+              <p class="review-item__paragraph">
+                Буду советовать и своим друзьям к вам обращаться
+              </p>
+              <cite class="review-item__author">АННА БЕЛОВСКАЯ</cite>
+            </blockquote>
+            <img
+              class="review-item__photo"
+              src="img/review-belovskaya-living-room.jpg"
+              alt="Гостинная"
+              width="407"
+              height="272"
+            />
+            <img
+              class="review-item__photo"
+              src="img/review-belovskaya-kitchen.jpg"
+              alt="Кухня"
+              width="407"
+              height="272"
+            />
+          </article>
           <button
             class="arrow-button arrow-button--forward review-section__button"
             type="button"
@@ -250,6 +254,7 @@
           >
             <img src="svg/arrow-button.svg" alt="Светлая стрелка" />
           </button>
+        </div>
       </section>
       <section class="cta-section dark-theme" id="cta">
         <h2 class="section-title cta-section__title">Оставить заявку</h2>

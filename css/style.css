@@ -41,7 +41,7 @@ body {
   color: #533738;
   background-color: #e5e5e5;
   background-image: url("../img/background.jpg");
-  background-size: 1400px 715px;
+  background-size: 1400px var(--intro-height);
   background-repeat: no-repeat;
   background-position: top;
 }

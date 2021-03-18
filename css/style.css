@@ -191,6 +191,28 @@ body {
   background-color: #e2c4ba;
 }
 
+.featured-numbered-list {
+  display: flex;
+  counter-reset: myCounter;
+  list-style: none;
+}
+
+.featured-numbered-list__item::before {
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #8d7370;
+  border: none;
+  border-radius: 50%;
+}
 .review-section__wrapper {
   display: grid;
   grid-template-columns: 72px 834px 72px;

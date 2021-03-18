@@ -105,7 +105,7 @@ body {
   min-height: var(--intro-height);
 }
 
-.intro-section__text--header {
+.intro-section__header {
   font-size: 50px;
   line-height: 62px;
 }

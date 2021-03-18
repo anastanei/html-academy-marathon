@@ -1,3 +1,7 @@
+:root {
+  --intro-height: 715px;
+}
+
 @font-face {
   font-family: "Montserrat";
   font-style: normal;
@@ -91,7 +95,7 @@ body {
 
 .intro-section {
   width: 1400px;
-  height: 715px;
+  min-height: var(--intro-height);
 }
 
 .intro-section__text--header {

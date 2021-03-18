@@ -82,6 +82,18 @@ body {
   background-color: #cc8b86;
 }
 
+.section-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section-title--left {
+  text-align: left;
+}
+
 .main-nav {
   display: grid;
   grid-template-columns: 25px 65px 1fr 145px;
@@ -140,11 +152,6 @@ body {
   text-decoration: none;
 }
 
-.section-title {
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 50px;
-  text-transform: uppercase;
 }
 
 .about-section__item-value {

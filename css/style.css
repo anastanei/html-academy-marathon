@@ -56,6 +56,11 @@ body {
   margin: 0 auto;
 }
 
+.container-cta {
+  max-width: 1117px;
+  margin: 0 auto;
+}
+
 .dark-theme {
   background: #8d7370;
   color: #ffffff;

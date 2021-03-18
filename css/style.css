@@ -162,6 +162,8 @@ body {
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
+  text-decoration: none;
+  color: #533738;
 }
 
 .work-sample {

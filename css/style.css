@@ -25,7 +25,6 @@
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
-
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -34,14 +33,12 @@
 body {
   margin: 0;
   padding: 0;
-
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   color: #533738;
-
   background-color: #e5e5e5;
   background-image: url("../img/background.jpg");
   background-size: 1400px 715px;
@@ -76,6 +73,7 @@ body {
 
 .main-nav__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 0;
   padding: 0;
@@ -113,7 +111,6 @@ body {
   line-height: 24px;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   color: #533738;
-
   width: 310px;
   height: 74px;
   border: none;
@@ -123,7 +120,6 @@ body {
 .intro-section__button {
   text-decoration: none;
 }
-
 
 .section-title {
   font-weight: 400;
@@ -194,7 +190,6 @@ body {
   align-items: center;
   width: 72px;
   height: 72px;
-
   background-color: #cc8b86;
   border: none;
   border-radius: 50%;
@@ -209,11 +204,9 @@ body {
   display: block;
   width: 508px;
   height: 35px;
-
   background-color: transparent;
   border: none;
   border-bottom: solid #ffffff 1px;
-
   font-style: normal;
   font-weight: normal;
   font-size: 18px;

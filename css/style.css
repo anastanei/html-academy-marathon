@@ -101,13 +101,23 @@ body {
 }
 
 .intro-section {
-  width: 1400px;
   min-height: var(--intro-height);
+  margin: 0;
+  padding-top: 91px;
 }
 
 .intro-section__header {
+  max-width: 535px;
+  margin: 0;
   font-size: 50px;
   line-height: 62px;
+  padding-bottom: 20px;
+}
+
+.intro-section__text {
+  max-width: 425px;
+  margin: 0;
+  padding-bottom: 25px;
 }
 
 .button {

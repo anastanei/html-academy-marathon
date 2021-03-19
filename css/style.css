@@ -83,6 +83,7 @@ body {
 }
 
 .section-title {
+  margin-top: 0;
   margin-bottom: 40px;
   font-weight: 400;
   font-size: 40px;
@@ -152,10 +153,6 @@ body {
 
 .intro-section__button {
   text-decoration: none;
-}
-
-.about-section {
-  margin-bottom: 65px;
 }
 
 .about-section__wrapper {

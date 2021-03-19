@@ -309,16 +309,33 @@ body {
   content: counter(featured-list-counter);
 }
 
+.review-section {
+  padding: 65px 0;
+}
+
 .review-section__wrapper {
   display: grid;
-  grid-template-columns: 72px 834px 72px;
-  column-gap: 20px;
+  grid-template-columns: 72px 1fr 72px;
+  column-gap: 29px;
   align-items: center;
 }
 
 .review-item {
   display: grid;
-  grid-template-columns: 407px 407px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  column-gap: 20px;
+  row-gap: 24px;
+}
+
+.review-item__quote {
+ grid-area: span 2;
+ margin: 0;
+}
+
+.review-item__paragraph {
+  margin: 0;
+  margin-bottom: 30px;
 }
 
 .arrow-button {

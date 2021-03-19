@@ -152,17 +152,52 @@ body {
   text-decoration: none;
 }
 
+.about-section {
+  margin-bottom: 65px;
+}
+
+.about-section__wrapper {
+  display: grid;
+  grid-template-columns: 444px 528px;
+  column-gap: 63px;
+  row-gap: 0;
+  margin-bottom: 21px;
+}
+
+.about-section__image {
+  grid-area: span 2;
+}
+
+.about-section__paragraph {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.about-section__pros-section {
+  padding: 85px 0 81px 0;
+  text-align: center;
+}
+
+.about-section__pros-list {
+  display: grid;
+  grid-template-columns: 190px 178px 132px;
+  gap: 269px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .about-section__item-value {
   font-size: 50px;
   line-height: 62px;
+  margin-bottom: 8px;
 }
 
 .about-section__item-description {
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
+  text-transform: uppercase;
 }
 
 .portfolio-section__load-more {

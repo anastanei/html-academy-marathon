@@ -56,11 +56,6 @@ body {
   margin: 0 auto;
 }
 
-.container-cta {
-  max-width: 1117px;
-  margin: 0 auto;
-}
-
 .dark-theme {
   background: #8d7370;
   color: #ffffff;
@@ -341,6 +336,37 @@ body {
   transform: rotate(180deg);
 }
 
+.cta-section .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.cta__container {
+  padding-left: 80px;
+}
+
+.cta-section__title {
+  margin-top: 50px;
+  margin-bottom: 22px;
+}
+
+.cta-section__intro {
+  margin: 0;
+  margin-bottom: 44px;
+}
+
+.cta-form__name-field {
+  margin-bottom: 32px;
+}
+
+.cta-form__phone-field {
+  margin-bottom: 31px;
+}
+
+.cta-form__button {
+
+}
 .input-text,
 .input-tel {
   display: block;

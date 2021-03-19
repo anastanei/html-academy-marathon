@@ -202,35 +202,56 @@ body {
   text-transform: uppercase;
 }
 
+.portfolio-section {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
 .portfolio-section__load-more {
+  display: block;
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
   text-decoration: none;
+  text-align: center;
   color: #533738;
 }
 
 .work-sample {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 488px 184px 488px;
+  column-gap: 20px;
+  row-gap: 30px;
+  margin-bottom: 40px;
 }
 
-.work-sample__wrapper {
+.work-sample__text-wrapper {
   position: absolute;
-
   width: 488px;
   height: 451px;
   margin: 0;
-
   color: #ffffff;
-
   background-color: rgba(100, 72, 69, 0.8);
 }
 
 .work-sample__title {
+  width: 270px;
+  margin: 0 auto;
+  margin-top: 86px;
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
+  text-align: center;
+}
+
+.work-sample__description {
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+.work-sample__image:nth-child(4n-1),
+.work-sample__image:nth-child(4n) {
+  grid-column: span 2;
 }
 
 .team-section {

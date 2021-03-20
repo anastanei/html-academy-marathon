@@ -391,7 +391,7 @@ body {
 }
 
 .featured-numbered-block__item {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -435,8 +435,8 @@ body {
 }
 
 .review-item__quote {
- grid-area: span 2;
- margin: 0;
+  grid-area: span 2;
+  margin: 0;
 }
 
 .review-item__paragraph {

@@ -106,7 +106,6 @@ body {
   box-shadow: 0 0 2px #533738;
 }
 
-
 .arrow-link:active {
   background-color: #e5e5e5;
   box-shadow: none;
@@ -131,13 +130,18 @@ body {
   text-align: left;
 }
 
-.main-nav {
+.main-header .container {
   display: grid;
-  grid-template-columns: 25px 65px 1fr 145px;
+  grid-template-columns: 25px 65px 1fr;
   align-items: center;
   margin-top: 36px;
   font-size: 16px;
   line-height: 20px;
+}
+
+.main-nav {
+  display: grid;
+  grid-template-columns: 1fr 145px;
 }
 
 .main-nav__list {

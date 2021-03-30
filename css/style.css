@@ -45,6 +45,7 @@ body {
   line-height: 30px;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   color: #533738;
+  -webkit-font-smoothing: antialiased;
   background-color: #e5e5e5;
   background-image: url("../img/background.jpg");
   background-size: 1400px var(--background-height);

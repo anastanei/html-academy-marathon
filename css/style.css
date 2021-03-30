@@ -96,6 +96,21 @@ body {
   outline-color: #533738;
 }
 
+.arrow-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72px;
+  height: 72px;
+  background-color: #cc8b86;
+  border: none;
+  border-radius: 50%;
+}
+
+.arrow-button--forward {
+  transform: rotate(180deg);
+}
+
 .arrow-button:hover {
   background-color: #a98a8a;
   cursor: pointer;
@@ -418,21 +433,6 @@ body {
 .review-item__paragraph {
   margin: 0;
   margin-bottom: 30px;
-}
-
-.arrow-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 72px;
-  height: 72px;
-  background-color: #cc8b86;
-  border: none;
-  border-radius: 50%;
-}
-
-.arrow-button--forward {
-  transform: rotate(180deg);
 }
 
 .cta-section .container {

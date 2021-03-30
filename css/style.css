@@ -52,11 +52,13 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .container-small {
   max-width: 1036px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 
 .dark-theme {

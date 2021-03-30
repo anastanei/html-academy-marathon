@@ -46,7 +46,7 @@ body {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   color: #533738;
   -webkit-font-smoothing: antialiased;
-  background-color: #e5e5e5;
+  background-color: #efe6e4;
   background-image: url("../img/background.jpg");
   background-size: 1400px var(--background-height);
   background-repeat: no-repeat;
@@ -118,7 +118,6 @@ body {
   background-color: #e5e5e5;
   box-shadow: none;
 }
-
 
 .arrow-link:focus {
   outline-color: #533738;

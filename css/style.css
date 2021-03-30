@@ -283,6 +283,9 @@ body {
   margin-top: 0;
   margin-bottom: 30px;
 }
+.about-section__paragraph:last-child {
+  margin-bottom: 0;
+}
 
 .about-section__pros-section {
   padding: 85px 0 81px 0;

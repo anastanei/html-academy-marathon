@@ -82,6 +82,7 @@ body {
   height: 74px;
   border: none;
   background-color: #cc8b86;
+  user-select: none;
 }
 
 .button:hover {
@@ -105,6 +106,7 @@ body {
   background-color: #cc8b86;
   border: none;
   border-radius: 50%;
+  user-select: none;
 }
 
 .arrow-button--forward {

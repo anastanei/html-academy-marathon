@@ -252,9 +252,8 @@ body {
 
 .about-section__wrapper {
   display: grid;
-  grid-template-columns: 444px 528px;
+  grid-template-columns: 1fr 1.2fr;
   column-gap: 63px;
-  row-gap: 0;
   margin-bottom: 21px;
 }
 

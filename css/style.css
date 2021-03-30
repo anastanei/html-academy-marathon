@@ -98,6 +98,7 @@ body {
 
 .arrow-button:hover {
   background-color: #a98a8a;
+  cursor: pointer;
 }
 
 .arrow-button:active {

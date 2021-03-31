@@ -318,7 +318,12 @@ body {
   grid-template-columns: 488px 184px 488px;
   column-gap: 20px;
   row-gap: 30px;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+
+.work-sample__image:nth-child(4n-1),
+.work-sample__image:nth-child(4n) {
+  grid-column: span 2;
 }
 
 .work-sample__text-wrapper {
@@ -345,10 +350,6 @@ body {
   margin-left: 35px;
 }
 
-.work-sample__image:nth-child(4n-1),
-.work-sample__image:nth-child(4n) {
-  grid-column: span 2;
-}
 
 .team-section {
   padding-top: 50px;

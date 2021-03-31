@@ -315,7 +315,7 @@ body {
 
 .work-sample {
   display: grid;
-  grid-template-columns: 488px 184px 488px;
+  grid-template-columns: 8fr 3fr 8fr;
   column-gap: 20px;
   row-gap: 30px;
   padding-bottom: 40px;

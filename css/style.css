@@ -367,6 +367,7 @@ body {
 }
 
 .work-sample:hover .work-sample__hover {
+  transition-duration: 0.1s;
   opacity: 1;
 }
 

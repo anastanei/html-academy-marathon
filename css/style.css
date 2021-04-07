@@ -163,13 +163,17 @@ body {
 }
 
 .arrow-link:hover {
-  background-color: #e2c4ba;
-  box-shadow: 0 0 2px #533738;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(100, 72, 69, 0.8);
+}
+.arrow-link:hover path {
+  fill: white;
 }
 
+
 .arrow-link:active {
-  background-color: #e5e5e5;
-  box-shadow: none;
+  background-color: #a9988a;
 }
 
 .arrow-link:focus {
@@ -358,7 +362,7 @@ body {
   color: white;
   background-color: rgba(100, 72, 69, 0.8);
   opacity: 0;
-  transition: 1s ease;
+  transition: 0.5s ease;
 }
 
 .work-sample:hover .work-sample__hover {
